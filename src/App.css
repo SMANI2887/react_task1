@@ -1,0 +1,44 @@
+
+
+.txtbx{
+  background: rgb(156, 156, 212);
+  border: 1px solid black;
+  width: 75%;
+  height: 500px;
+  margin: auto;
+}
+.header{
+  text-align: center;
+  
+}
+.btn{
+  text-align: center;
+  /* width: 50px; */
+  font:bold ;
+  background: blueviolet;
+  
+}
+
+.line{
+  border: 1px solid black;
+  width: 150px;
+  margin:auto ;
+}
+
+.underline{
+  text-decoration: underline;
+}
+.rectangle{
+  border-radius: 10px;
+  border: 1px solid black;
+  background: wheat;
+  width: 250px;
+  height: 400px;
+  float: left;
+  /* margin: auto; */
+  margin: 45px 35px 35px 45px;
+}
+
+.list{
+  margin: 10px 0px 10px 0px;
+}
