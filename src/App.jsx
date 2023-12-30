@@ -1,13 +1,26 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
+
 const App = () => {
   return(
     <div>
+      <ul class="nav">
+  <li class="nav-item" >
+    <a class="nav-link active" aria-current="page" href="#">
+    
+
+    </a>
+  </li>
+  
+</ul>
+
       <h2 className='header'>
+        <br/>
+        <br/>
         React Price Card Task
       </h2>
-
+      <br/><br/>
+      <p>Reproduce this user interface using a React.js application with JSX.Write the code in a dynamic manner.</p>
 
 {/* 1st column */}
     <div className='txtbx'>
@@ -17,20 +30,20 @@ const App = () => {
         <p className='line'></p>
         
         <div>
-        <ul className='list'> 
+        <ul className='tick'> 
           <li>Single User</li>
           <li>50GB Storages</li>
           <li>Unlimited Public Projects</li>
-          <li className='list'>Community Access</li>
+          <li>Community Access</li>
           </ul>
-          <ul className='element'>
-          <li className='hide'>Unlimited Private Projects</li>
-          <li className='list'>Dedicated Phone Support</li>
-          <li className='list'>Free Subdomain</li>
-          <li className='list'>Monthly Status Reports</li>
+          <ul className='close'>
+          <li className='text_mute'>Unlimited Private Projects</li>
+          <li className='text_mute'>Dedicated Phone Support</li>
+          <li className='text_mute'>Free Subdomain</li>
+          <li className='text_mute'>Monthly Status Reports</li>
           
         </ul>
-        <div >
+        <div>
           <button class='btn-primary'>BUTTON</button>
           </div>
         
@@ -44,7 +57,7 @@ const App = () => {
         <h2 className='header'>$9/month</h2>
         <p className='line'></p>
        
-      <ul className='list'> 
+      <ul className='tick'> 
           <li>5 User</li>
           <li>50GB Storages</li>
           <li>Unlimited Public Projects</li>
@@ -53,11 +66,11 @@ const App = () => {
           <li>Dedicated Phone Support</li>
           <li>Free Subdomain</li>
       </ul>
-      <ul>    
-          <li>Monthly Status Reports </li>
+      <ul className='close'>    
+          <li className='text_mute'>Monthly Status Reports </li>
           
         </ul>
-        <div >
+        <div>
           <button className='btn-primary'>BUTTON</button>
           </div>
         
@@ -69,25 +82,34 @@ const App = () => {
         <h2 className='header'>$49/month</h2>
         <p className='line'></p>
        
-      <ul className='list'> 
-          <li className='list'>Unlimited User</li>
-          <li className='list'>50GB Storages</li>
-          <li className='list'>Unlimited Public Projects</li>
-          <li className='list'>Community Access</li>
-          <li className='list'>Unlimited Private Projects</li>
-          <li className='list'>Dedicated Phone Support</li>
-          <li className='list'>Free Subdomain</li>
-          <li className='list'>Monthly Status Reports</li>
+      <ul className='tick'> 
+          <li>Unlimited User</li>
+          <li>50GB Storages</li>
+          <li>Unlimited Public Projects</li>
+          <li>Community Access</li>
+          <li>Unlimited Private Projects</li>
+          <li>Dedicated Phone Support</li>
+          <li>Free Subdomain</li>
+          <li>Monthly Status Reports</li>
           
         </ul>
-        <div >
+        <div>
           <button className='btn-primary'>BUTTON</button>
           </div>
       </div>
       
-        
-      
       </div>
+
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   )
 }

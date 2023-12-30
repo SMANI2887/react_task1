@@ -1,22 +1,24 @@
-
-
 .txtbx{
-  background: rgb(156, 156, 212);
+  background-image: linear-gradient(
+      to right, 
+      rgb(53, 114, 226)0% , 
+      rgba(114, 121, 216, 0.801)50%
+    );
+  
   border: 1px solid black;
-  width: 65%;
+  width: 75%;
   height: 500px;
   margin: auto;
+  display: flex;
+  justify-content: space-evenly;  
 }
 .header{
-  text-align: center;
-  
+  text-align: center; 
 }
-.btn{
-  text-align: center;
-  width: 50px;
-  font:bold ;
-  /* background: blueviolet; */
-  
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 800px;
+  margin-left: 138px;
 }
 
 .line{
@@ -31,44 +33,38 @@
 .rectangle{
   border-radius: 10px;
   border: 1px solid black;
-  background: wheat;
-  width: 235px;
-  height: 435px;
-  float: left;
-  /* margin: auto; */
-  margin: 35px 25px 35px 25px;
+  background: #ffffffec;
+  width: 225px;
+  height: 430px;
+  float: inline-start;
+  margin: auto;
+  
+
 }
 
-.list{
+li{
   margin: 10px 0px 10px 0px;
-  li:before { 
-    content:"\2713\0020";
-    
-   }
-  
-.hide{
+  }
 
-  text-transform: none;
-  
-}
+.tick {
+  list-style-image: url("https://img.icons8.com/ios-glyphs/18/checkmark--v1.png");
+  }
 
-.close{
-  li:before 
-/* { content: '\2715'; } */
-{  content: '\2713\00D7'; }
-}
-
-.element:before {
-  content: "d7";
-}
-
-}
-ul {
-  list-style-type: none;
-}
+ .close{
+  list-style-image: url("https://img.icons8.com/sf-ultralight/18/000000/delete-sign.png" );
+  color: #afb3b6a2 !important;
+ } 
 .btn-primary{
   width: 200px;
   display: block;
   margin: auto;
   border-radius: 15px;
+}
+
+.nav{
+  float: inline-end;
+  background-image: url('./image/GUVI_logo.png');
+  width: 100px;
+  height: 34px;
+  margin: 20px;
 }
